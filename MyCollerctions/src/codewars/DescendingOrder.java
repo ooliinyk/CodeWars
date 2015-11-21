@@ -1,5 +1,7 @@
 package codewars;
 
+import java.util.ArrayList;
+
 /**
  * Created by user on 09.10.2015.
  */
@@ -11,7 +13,16 @@ public class DescendingOrder {
 
     public static int sortDesc(final int num) {
 
+            String str=""+num;
+        System.out.println(str);
+        char[] charArr=str.toCharArray();
+        ArrayList<Integer> arrayList= new ArrayList<Integer>();
 
+        for (char i: charArr){
+            arrayList.add((int)i);
+        }
+
+    /*
             int result = 0;
             int numm=num;
             while(numm > 0) {
@@ -20,8 +31,8 @@ public class DescendingOrder {
             }
 
 
-
-        return  result;
+    */
+        return  0;
 
     }
 }

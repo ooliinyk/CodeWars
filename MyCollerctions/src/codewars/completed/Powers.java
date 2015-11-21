@@ -29,10 +29,10 @@ import java.math.BigInteger;
 
  Examples:
 
- codewars.completed.Powers.powers(new int[]{});        // 1
- codewars.completed.Powers.powers(new int[]{1});       // 2
- codewars.completed.Powers.powers(new int[]{1,2});     // 4
- codewars.completed.Powers.powers(new int[]{1,2,3,4}); // 16
+ Powers.powers(new int[]{});        // 1
+ Powers.powers(new int[]{1});       // 2
+ Powers.powers(new int[]{1,2});     // 4
+ Powers.powers(new int[]{1,2,3,4}); // 16
  */
 public class Powers {
     public static void main(String[] args) {
